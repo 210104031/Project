@@ -1,0 +1,10 @@
+body{
+    background-position: bottom right;
+    background-size: cover;
+    font-family: 'Dancing Script', cursive;
+}
+
+canvas{
+    border: 5px white inset;
+    margin-top: 80px;
+}
