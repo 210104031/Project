@@ -1,10 +1,30 @@
-body{
-    background-position: bottom right;
-    background-size: cover;
+body {
+    text-align: center;
+    color: white;
+    background:linear-gradient(to right, rgb(49, 0, 49), rgb(123, 0, 123));
     font-family: 'Dancing Script', cursive;
 }
 
-canvas{
-    border: 5px white inset;
-    margin-top: 80px;
+.header {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+#album {
+
+    border-bottom: 3px solid #689F38;
+    padding: 2px;
+
+    height: 400px;
+}
+
+.folder {
+    background-color: rgb(145, 46, 150);
+    height: 4750px;
+    width: 900px;
+    border-radius: 20px;
+}
+
+.btn {
+    color: purple;
 }
